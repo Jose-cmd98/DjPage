@@ -1,3 +1,4 @@
+import { BlogPostModel } from './../../services/blog-post-model';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomePageComponent implements OnInit {
 
-  constructor() { }
+  public logoUrl = "/assets/favIcon.jpeg";
+  public titulo = "First Post";
+  public descricao = "Hy there"
+
+  constructor() {}
 
   ngOnInit(): void {
   }
